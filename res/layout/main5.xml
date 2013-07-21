@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="　　　　　社区乙肝患者调查表
+            　　　　　　 　知情同意书"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.05"
+            android:layout_marginBottom="20px"
+            android:text="各位居民，您好！\n
+　　为贯彻落实省卫生厅、财政厅、人口计生委《关于促进基本公共卫生服务逐步均等化的实施意见》（苏卫社妇〔2009〕9号 ），省卫生厅将实施基本公共卫生服务项目和国家“十二五”科技重大专项“传染病防治综合示范区”项目。项目将对乙肝患者进行生命质量等相关调查，生命质量是人们对自己健康状况的满意程度。我们开展此次调查的目的是了解您各方面的健康状况，并根据调查结果提出一些有助于提高您健康水平的措施。请您根据自身的情况回答下列问题，我们将对您的回答内容严格保密，谢谢您的合作！
+　　\n　　本次调查是自愿的，如您同意参加调查，请在下面签字。谢谢！\n
+　　　　　　　　　　江苏省疾病预防控制中心\n
+　　　　　　　　　　科技重大专项执行办公室\n
+　　　　　　　　　　东南大学公共卫生学院
+            "
+            android:textColor="#000"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <Button
+            android:id="@+id/startSurveyBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="@string/index_survey_btn" />
+
+        <Button
+            android:id="@+id/dataExportBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="@string/index_data_export_btn" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </RelativeLayout>
+
+</LinearLayout>

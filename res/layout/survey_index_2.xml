@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 本界面用于非省疾控项目的调查问卷 -->
+<ScrollView
+    		xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/scrollView1"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent" 
+		    android:background="@drawable/bg1">
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="150px"
+                android:layout_height="wrap_content"
+                android:text="@string/survey_index_number"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="30dp"
+                android:textColor="#000"  />
+
+            <EditText
+                android:id="@+id/survey_index_number"
+                android:layout_width="300px"
+                android:textSize="30dp"
+                android:layout_height="wrap_content" 
+				android:numeric="integer"
+				android:maxLength="5"/>
+
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="区(县)"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:textSize="30dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="六合"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:textSize="30dp"
+            android:textColor="#000" />
+        <!-- 
+        <EditText
+            android:id="@+id/survey_index_zone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text=""
+            android:textSize="30dp"/>
+ 		-->
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="街道(乡镇)"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:textSize="30dp"
+            android:textColor="#000" />
+
+        <Spinner
+            android:id="@+id/survey_index_town"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        </TableRow>
+        
+        
+		<TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="居委会(村)"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:textSize="30dp"
+            android:textColor="#000" />
+
+        <Spinner
+            android:id="@+id/survey_index_villageCommittee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        </TableRow>
+
+		<TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <Button
+                android:id="@+id/survey_index_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="30dp"
+                android:text="下一步" />
+		</TableRow>
+
+    </TableLayout>
+</ScrollView>

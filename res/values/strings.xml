@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">南京市公众摩托车酒后驾驶相关知识、态度、行为调查</string>
+    
+    <!-- 首页界面 -->
+    <string name="index_survey_btn">开始调查</string>
+    <string name="index_data_export_btn">数据导出</string>
+    
+    <!-- 正式调查首页 -->
+    <string name="survey_index_title">问卷调查地点</string>
+    <string name="survey_index_number">问卷编号</string>
+    <string name="survey_index_province">省</string>
+    
+    <!-- 调查问卷题目界面 -->
+    
+    <!-- 问卷结束界面 -->
+
+</resources>

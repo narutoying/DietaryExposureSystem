@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:text="2011江苏省城乡居民健康素养调查问卷"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.05"
+            android:layout_marginBottom="20px"
+            android:text="尊敬的朋友：\n
+　　您好！为了深入了解江苏省城乡居民对健康知识、信息、服务的获取能力和对健康生活方式、健康技能的掌握程度等与健康素养有关的情况，在全省进行抽样调查。我们高兴地邀请您作为江苏省城乡居民的代表接受调查，请您提供看法与意见。希望能够得到您的大力支持与合作。\n
+　　本调查不记名，数据由计算机统一处理，因而请您放心如实回答调查员的提问。您回答的任何信息都会保密且只会用于本次调查工作。能得到您的看法和意见，我们感到十分荣幸。我们的调查结果和每一位社会大众的健康息息相关，而且，您的配合是我们调查成功的基础，因此，我们真诚地期待您的合作。谢谢！\n
+　　　　　　　江苏省城乡居民健康素养调查组
+            "
+            android:textColor="#000"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <Button
+            android:id="@+id/startSurveyBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="@string/index_survey_btn" />
+
+        <Button
+            android:id="@+id/dataExportBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="@string/index_data_export_btn" />
+
+        <Button
+            android:id="@+id/dataStatisticsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="数据统计" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/relativeLayout1"
+            android:layout_alignRight="@+id/relativeLayout1"
+            android:src="@drawable/logo" />
+
+    </RelativeLayout>
+
+</LinearLayout>

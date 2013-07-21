@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+        	android:gravity="center"
+            android:textSize="25dip"
+            android:text="南京市公众摩托车酒后驾驶相关知识、态度、行为调查"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="尊敬的朋友：\n
+　　您好！我们在南京化工园区开展摩托车酒后驾驶干预项目，目的是提高公众对摩托车酒后驾驶的认识，减少酒后驾驶行为。我们很高兴地邀请您作为中国公民的代表接受问卷调查，希望能够得到您的支持与配合。您的看法与意见将作为我们掌握全球酒后驾驶现状的依据。\n
+　　我们郑重承诺：调查采用匿名形式，您所提供的信息我们将予以严格保密，仅供研究所用，不会透露给任何人（包括警方），决不会作为考核、处罚的依据，诚请您如实填写。
+回答问卷大约20分钟左右。感谢您的热心支持！为表达谢意，在您答卷后我们将会给您一份小礼物。
+            "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000"
+            android:textSize="20dip" />
+        
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="“减少有害饮酒全球行动”酒后驾驶项目组"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000"
+            android:gravity="right"
+            android:textSize="20dip" />
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <Button
+            android:id="@+id/startSurveyBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="@string/index_survey_btn" />
+
+        <Button
+            android:id="@+id/dataExportBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="@string/index_data_export_btn" />
+        <!-- 
+        <Button
+            android:id="@+id/dataStatisticsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="数据统计" />
+		 -->
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

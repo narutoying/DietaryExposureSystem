@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/bg1">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="问卷调查数据分析"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textSize="32dp"
+        android:textColor="#000"/>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男女比例统计"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:textSize="24dp"
+            android:textColor="#000" />
+
+    </TableRow>
+    
+    <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <LinearLayout
+            android:id="@+id/data_statistic_sex_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:orientation="vertical" >
+        </LinearLayout>
+        
+        </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="年龄段统计"
+            android:textColor="#000"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="24dp" />
+        
+    </TableRow>
+    
+    <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        
+        <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/data_statistic_age_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+    </ScrollView>
+        
+        </TableRow>
+
+</TableLayout>
